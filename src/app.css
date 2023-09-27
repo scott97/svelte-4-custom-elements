@@ -1,4 +1,5 @@
-:root {
+/* Global styles, these will be applied to all custom elements. */
+:root, :host { /* :host for selecting root of custom elements */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
